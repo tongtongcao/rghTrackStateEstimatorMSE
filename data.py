@@ -35,7 +35,7 @@ def read_track_state_data(filename):
         if len(vals) != 13:
             raise ValueError(
                 f"Line {i+1}: expected 13 values "
-                f"(10 input + particleType + 3 output), "
+                f"(10 input + 3 output), "
                 f"got {len(vals)}"
             )
 

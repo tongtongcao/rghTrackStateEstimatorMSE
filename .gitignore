@@ -1,5 +1,6 @@
 __pycache__
 samples.csv
+samples2.csv
 lightning_logs
 .idea
 target

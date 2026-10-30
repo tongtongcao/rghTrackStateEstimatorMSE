@@ -54,8 +54,6 @@ class TrackStateMLP(pl.LightningModule):
     def _compute_loss(self, pred_state, target_state):
         return self.criterion(pred_state, target_state)
 
-        return loss.mean()
-
     def training_step(self, batch, batch_idx):
         x_cont, target_state = batch
         pred_state = self(x_cont)
